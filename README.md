@@ -74,7 +74,7 @@ To-Do-App/
 
 3. Open `index.html` in your web browser.
 
-No server or additional dependencies are required.
+> **Note:** No server or additional dependencies are required.
 
 ## 💡 How It Works
 
