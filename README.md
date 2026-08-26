@@ -1,5 +1,14 @@
 # To-Do App
 
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+">
+  <img src="https://img.shields.io/badge/LocalStorage-Browser%20Storage-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="LocalStorage">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
 A clean and responsive To-Do List web application built with **HTML, CSS, and JavaScript**. It helps users organize tasks by adding, editing, completing, filtering, moving tasks to trash, restoring them, and permanently deleting them.
 
 ## ✨ Features
@@ -17,15 +26,6 @@ A clean and responsive To-Do List web application built with **HTML, CSS, and Ja
 - 📱 Responsive and clean user interface
 
 ## 🛠️ Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+">
-  <img src="https://img.shields.io/badge/LocalStorage-Browser%20Storage-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="LocalStorage">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
 
 | Technology | Purpose |
 |---|---|
@@ -58,6 +58,7 @@ To-Do-App/
 ├── index.html
 ├── style.css
 ├── script.js
+├── LICENSE
 └── README.md
 ```
 
@@ -65,7 +66,7 @@ To-Do-App/
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/silsrinjoy26-cmd/To-Do-App
    ```
 
 2. Open the project folder.
@@ -98,4 +99,4 @@ This project is useful for managing daily tasks, learning the fundamentals of fr
 
 ## 📄 License
 
-This project is available for educational and personal use.
+This project is licensed under **MIT LICENSE**
