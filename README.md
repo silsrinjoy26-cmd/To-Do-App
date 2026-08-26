@@ -66,7 +66,8 @@ To-Do-App/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/silsrinjoy26-cmd/To-Do-App
+   git clone https://github.com/silsrinjoy26-cmd/To-Do-App.git
+   cd To-Do-App
    ```
 
 2. Open the project folder.
