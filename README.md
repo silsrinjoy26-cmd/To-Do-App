@@ -96,7 +96,7 @@ This project is useful for managing daily tasks, learning the fundamentals of fr
 
 ## 👨‍💻 Author
 
-**Srinjoy Sil**
+**SRINJOY SIL**
 
 ## 📄 License
 
