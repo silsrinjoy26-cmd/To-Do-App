@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <div class="header">
+      <h1>To-Do App</h1>
+      <button class="btn btn-primary" onclick="openModal()">+ Add Task</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('All')">All</button>
+      <button class="tab-btn" onclick="switchTab('Pending')">Pending</button>
+      <button class="tab-btn" onclick="switchTab('Completed')">Completed</button>
+      <button class="tab-btn" onclick="switchTab('Trash')">Trash</button>
+    </div>
+
+    <div class="toolbar" id="toolbar">
+      <div class="bulk-actions" id="bulkActions" style="display: none;">
+        <span class="selected-count" id="selectedCount">0 selected</span>
+        <button class="btn btn-danger btn-sm" id="bulkDeleteBtn" onclick="bulkDelete()" style="display: none;">Delete Selected</button>
+        <button class="btn btn-primary btn-sm" id="bulkRestoreBtn" onclick="bulkRestore()" style="display: none;">Restore Selected</button>
+        <button class="btn btn-warning btn-sm" id="bulkTrashBtn" onclick="bulkMoveToTrash()" style="display: none;">Move Selected to Trash</button>
+      </div>
+      <div class="trash-tools" id="trashTools" style="display: none; margin-left: auto; gap: 8px;">
+        <button class="btn btn-danger btn-sm" id="emptyTrashBtn" onclick="emptyTrash()">Empty Trash</button>
+        <button class="btn btn-primary btn-sm" id="restoreAllBtn" onclick="restoreAllTrash()">Restore All</button>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead id="taskTableHead">
+        </thead>
+        <tbody id="taskTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="taskModal">
+    <div class="modal">
+      <div class="modal-header" id="modalTitle">Add New Task</div>
+      <input type="text" class="modal-input" id="taskInput" placeholder="Enter task description...">
+      <div class="modal-actions">
+        <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="saveTask()">Save Task</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
