@@ -11,6 +11,12 @@
 
 A clean and responsive To-Do List web application built with **HTML, CSS, and JavaScript**. It helps users organize tasks by adding, editing, completing, filtering, moving tasks to trash, restoring them, and permanently deleting them.
 
+## 🌐 Live Demo
+
+🔗 [Click to Open Live App](https://to-do-app-eight-olive-91.vercel.app)
+
+---
+
 ## ✨ Features
 
 - ➕ Add new tasks
