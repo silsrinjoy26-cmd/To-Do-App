@@ -30,6 +30,7 @@ A clean and responsive To-Do List web application built with **HTML, CSS, and Ja
 - 🧹 Empty the entire Trash
 - 💾 Save tasks using browser **localStorage**
 - 📱 Responsive and clean user interface
+- 💎 Modern UI enhanced with **Glassmorphism** depth effects
 
 ## 🛠️ Tech Stack
 
@@ -43,6 +44,14 @@ A clean and responsive To-Do List web application built with **HTML, CSS, and Ja
 
 > **Note:** The badges above are limited to technologies actually relevant to this project. Unused technologies such as OpenWeatherMap, API integrations, or Font Awesome are not included.
 
+## 🎨 Visual Styling (Glassmorphism)
+
+The application utilizes modern CSS styling properties to deliver an elegant, translucent user interface over a full-screen background image:
+- **Frosted Glass Effect:** Implemented across the main container using `backdrop-filter: blur(10px)` to softly blur the underlying background wallpaper.
+- **Translucent UI Surfaces:** Uses an alpha-channel background color (`rgba(255, 255, 255, 0.75)`) to let colors filter through while keeping text highly readable.
+- **Reflective Borders:** Wrapped in an ultra-thin, light border (`1px solid rgba(255, 255, 255, 0.4)`) to simulate light catching on glass edges.
+- **Soft Shadows:** Paired with a deep box shadow (`0 8px 32px 0 rgba(0, 0, 0, 0.15)`) to lift the application panel and create distinct physical layering.
+
 ## 🖥️ Interface
 
 The application provides a simple and user-friendly task management interface with:
@@ -55,6 +64,7 @@ The application provides a simple and user-friendly task management interface wi
 - **Trash Management:** Provides options to **Restore All** or **Empty Trash**.
 - **Task Modal:** A clean modal interface is used for adding and editing task descriptions.
 - **Responsive Design:** The interface uses a clean card-based layout and horizontal scrolling for the task table on smaller screens.
+- **Glassmorphic Design:** Features a modern frosted-glass visual theme across all containers.
 
 ## 📂 Project Structure
 
